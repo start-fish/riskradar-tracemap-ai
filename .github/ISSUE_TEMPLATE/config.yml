@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: ClawHub RiskRadar AI
+    url: https://clawhub.ai/start-fish/riskradar-ai
+    about: Install or view the RiskRadar AI skill on ClawHub.
+  - name: ClawHub TraceMap AI
+    url: https://clawhub.ai/start-fish/tracemap-ai
+    about: Install or view the TraceMap AI skill on ClawHub.

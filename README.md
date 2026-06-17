@@ -1,13 +1,19 @@
 # RiskRadar AI + TraceMap AI
 
-Two English, general-purpose ClawHub skills for AI-assisted software quality:
+> Two practical ClawHub skills for AI-assisted software quality: **code risk review** and **requirement-test-code traceability**.
 
-- **RiskRadar AI** — AI code review, code risk review, Git Diff review, release-quality gate, and test strategy.
-- **TraceMap AI** — requirements traceability, test case validation, coverage gap detection, and release acceptance evidence.
+[![ClawHub RiskRadar](https://img.shields.io/badge/ClawHub-RiskRadar%20AI-blue)](https://clawhub.ai/start-fish/riskradar-ai)
+[![ClawHub TraceMap](https://img.shields.io/badge/ClawHub-TraceMap%20AI-green)](https://clawhub.ai/start-fish/tracemap-ai)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
-Both skills are designed for common software engineering workflows across backend, frontend, mobile, API, data, platform, and AI-enabled systems. They are **not tied to a specific industry**.
+If this helps your release review or QA workflow, please **star the repo** so more QA engineers, SDETs, and AI app builders can find it.
 
-## Install From ClawHub
+## 30-Second Value
+
+| Skill | Use It When | Output You Get |
+| --- | --- | --- |
+| **RiskRadar AI** | You need to review a Git Diff before release. | Code risk report, exact risk locations, release-quality gate, regression-test strategy. |
+| **TraceMap AI** | You need to verify PRDs, tests, and code changes match. | Requirement-test-code traceability matrix, coverage gaps, acceptance evidence. |
 
 ```bash
 clawhub install riskradar-ai
@@ -19,9 +25,24 @@ ClawHub listings:
 - [AI Code Review RiskRadar](https://clawhub.ai/start-fish/riskradar-ai)
 - [Requirements Traceability TraceMap](https://clawhub.ai/start-fish/tracemap-ai)
 
-## Skill 1: RiskRadar AI
+## Why Developers Star This
 
-RiskRadar AI reviews Git Diff and source code for functional risk, runtime failure paths, dependency impact, security exposure, performance risk, AI/Agent/RAG workflow risk, and regression-test gaps.
+Star this repo if you want reusable AI-assisted QA workflows that produce release evidence instead of generic advice:
+
+- **AI code review**: turn Git Diff into concrete release risks.
+- **Quality gates**: decide whether a change is ready to ship.
+- **Requirements traceability**: connect PRD → test cases → code changes.
+- **Coverage gaps**: find missing validation before production.
+- **Agent/RAG testing**: review AI workflow risks with a repeatable checklist.
+- **ClawHub examples**: learn how to package useful skills for other teams.
+
+## Quick Examples
+
+### RiskRadar AI
+
+```text
+Use RiskRadar AI to review this Git Diff for release risks and build a regression test strategy.
+```
 
 Best for:
 
@@ -32,15 +53,17 @@ Best for:
 - Agent/RAG/LLM workflow risk review
 - Security and runtime-risk review
 
-Example prompt:
+Read more:
+
+- [RiskRadar AI skill](./skills/riskradar-ai/README.md)
+- [RiskRadar prompt examples](./examples/prompts/riskradar-ai-prompts.md)
+- [Sample RiskRadar report](./examples/reports/sample-riskradar-report.md)
+
+### TraceMap AI
 
 ```text
-Use RiskRadar AI to review this Git Diff for release risks and build a test strategy.
+Use TraceMap AI to validate this PRD, test cases, and multi-repo code changes for coverage gaps.
 ```
-
-## Skill 2: TraceMap AI
-
-TraceMap AI maps PRDs, specs, acceptance criteria, test cases, AI/Agent/RAG workflows, and multi-repo code changes into a requirement-test-code traceability matrix.
 
 Best for:
 
@@ -51,11 +74,11 @@ Best for:
 - Multi-repo release acceptance
 - QA sign-off evidence
 
-Example prompt:
+Read more:
 
-```text
-Use TraceMap AI to validate this PRD, test cases, and multi-repo code changes for coverage gaps.
-```
+- [TraceMap AI skill](./skills/tracemap-ai/README.md)
+- [TraceMap prompt examples](./examples/prompts/tracemap-ai-prompts.md)
+- [Sample TraceMap report](./examples/reports/sample-tracemap-report.md)
 
 ## Repository Layout
 
@@ -69,21 +92,30 @@ skills/
     SKILL.md
     README.md
     references/traceability-validation-playbook.md
+examples/
+  prompts/
+  reports/
+  social/
 ops/
   github-star-growth-playbook.md
   launch-checklist.md
 ```
 
-## Why Star This Repo
+## Share This Repo
 
-Star this repo if you care about practical AI-assisted QA workflows that produce evidence instead of generic advice:
+Copy one of the launch posts if you want to help others discover the project:
 
-- code risk reports with exact locations;
-- release-quality gates;
-- requirement-test-code traceability;
-- coverage gap detection;
-- AI/Agent/RAG testing patterns;
-- reusable ClawHub skill examples.
+- [Launch post drafts](./examples/social/launch-posts.md)
+- [GitHub star growth playbook](./ops/github-star-growth-playbook.md)
+
+## Feedback Wanted
+
+Open an issue if you have:
+
+- a real Git Diff that needs a better risk-review checklist;
+- a PRD/test-case workflow that needs traceability;
+- an Agent/RAG/LLM workflow that is hard to validate;
+- a suggestion for a new sample report or prompt template.
 
 ## License
 
