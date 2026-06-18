@@ -1,27 +1,27 @@
 {
   "name": "riskradar-ai",
   "slug": "riskradar-ai",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "RiskRadar TraceMap Contributors",
-  "description": "AI Code Review and Code Risk Review quality gate for Git Diff, release readiness, regression testing, security testing, dependency impact, runtime risk, LLM testing, Agentic AI risk, and RAG security.",
+  "description": "AI Code Review quality gate for Git Diff: code risk review, release readiness, regression testing, security testing, LLM testing, Agentic AI risk, and RAG security.",
   "category": "testing",
   "created": "2026-06-17",
-  "updated": "2026-06-17",
+  "updated": "2026-06-18",
   "tags": [
-    "code-risk-review",
     "ai-code-review",
-    "git-diff-review",
     "quality-gate",
+    "code-risk-review",
+    "git-diff-review",
+    "release-readiness",
     "regression-testing",
     "test-strategy",
+    "security-testing",
     "runtime-risk",
     "dependency-impact",
-    "security-testing",
-    "performance-risk",
+    "llm-testing",
     "agentic-ai-risk",
     "rag-security",
-    "llm-testing",
     "qa-automation",
-    "release-readiness"
+    "performance-risk"
   ]
 }

@@ -1,6 +1,6 @@
 # TraceMap AI
 
-Requirements Traceability and Test Case Validation for software teams.
+Coverage gap detection, test case validation, requirements traceability, Agentic AI testing, and RAG testing for software teams.
 
 TraceMap AI maps PRDs, specs, acceptance criteria, test cases, AI/Agent/RAG workflows, and multi-repo code changes into a requirement-test-code traceability matrix. It finds coverage gaps, missing evidence, high-priority defects, and release acceptance risks.
 
@@ -24,4 +24,4 @@ Build a requirement-test-code traceability matrix for this release and identify 
 
 ## Search Keywords
 
-`requirements-traceability` `test-case-validation` `requirement-coverage` `coverage-gap` `acceptance-testing` `multi-repo-testing` `qa-report` `traceability-matrix` `defect-analysis` `prd-analysis` `spec-validation` `agentic-ai` `rag-testing` `llm-testing`
+`coverage-gap` `test-case-validation` `requirements-traceability` `rag-testing` `agentic-ai-testing` `requirement-coverage` `acceptance-testing` `multi-repo-testing` `qa-report` `traceability-matrix` `defect-analysis` `prd-analysis` `spec-validation` `agentic-ai` `rag-testing` `llm-testing`

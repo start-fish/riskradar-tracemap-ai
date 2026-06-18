@@ -1,26 +1,26 @@
 {
   "name": "tracemap-ai",
   "slug": "tracemap-ai",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "RiskRadar TraceMap Contributors",
-  "description": "Requirements Traceability and Test Case Validation skill for PRD analysis, requirement coverage, coverage gap detection, multi-repo testing, acceptance testing, traceability matrix, LLM testing, Agentic AI, and RAG testing.",
+  "description": "Coverage gap and test case validation for requirements traceability: PRD analysis, traceability matrix, acceptance testing, Agentic AI testing, RAG testing, and LLM testing.",
   "category": "testing",
   "created": "2026-06-17",
-  "updated": "2026-06-17",
+  "updated": "2026-06-18",
   "tags": [
-    "requirements-traceability",
-    "test-case-validation",
-    "requirement-coverage",
     "coverage-gap",
+    "test-case-validation",
+    "requirements-traceability",
+    "rag-testing",
+    "agentic-ai-testing",
+    "requirement-coverage",
     "acceptance-testing",
-    "multi-repo-testing",
-    "qa-report",
     "traceability-matrix",
-    "defect-analysis",
     "prd-analysis",
     "spec-validation",
-    "agentic-ai",
-    "rag-testing",
-    "llm-testing"
+    "multi-repo-testing",
+    "llm-testing",
+    "qa-report",
+    "defect-analysis"
   ]
 }

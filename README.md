@@ -12,8 +12,8 @@ If this helps your release review or QA workflow, please **star the repo** so mo
 
 | Skill | Use It When | Output You Get |
 | --- | --- | --- |
-| **RiskRadar AI** | You need to review a Git Diff before release. | Code risk report, exact risk locations, release-quality gate, regression-test strategy. |
-| **TraceMap AI** | You need to verify PRDs, tests, and code changes match. | Requirement-test-code traceability matrix, coverage gaps, acceptance evidence. |
+| **RiskRadar AI** | You need an AI code review / quality gate before release. | Code risk report, exact risk locations, release-quality gate, regression-test strategy. |
+| **TraceMap AI** | You need coverage gap detection across PRDs, tests, and code. | Requirement-test-code traceability matrix, coverage gaps, acceptance evidence. |
 
 ```bash
 clawhub install riskradar-ai
@@ -33,7 +33,7 @@ Star this repo if you want reusable AI-assisted QA workflows that produce releas
 - **Quality gates**: decide whether a change is ready to ship.
 - **Requirements traceability**: connect PRD → test cases → code changes.
 - **Coverage gaps**: find missing validation before production.
-- **Agent/RAG testing**: review AI workflow risks with a repeatable checklist.
+- **Agent/RAG testing**: review LLM, Agentic AI, and RAG testing risks with a repeatable checklist.
 - **ClawHub examples**: learn how to package useful skills for other teams.
 
 ## Quick Examples
