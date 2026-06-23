@@ -1,6 +1,6 @@
 # RiskRadar AI
 
-AI Code Review quality gate for Git Diff, code risk review, release readiness, LLM testing, Agentic AI risk, and RAG security.
+AI code review quality gate for PRs and Git Diff, release readiness, code risk review, LLM testing, Agentic AI risk, and RAG security.
 
 RiskRadar AI reviews Git Diff and source code for functional risk, runtime failure paths, dependency impact, security exposure, performance risk, AI/Agent/RAG workflow risk, and regression-test gaps. It produces a release-ready Markdown report with severity, exact code location, impact, evidence, and test strategy.
 
@@ -24,4 +24,4 @@ Check this AI workflow for Agent/RAG risks, runtime failure paths, and regressio
 
 ## Search Keywords
 
-`ai-code-review` `quality-gate` `code-risk-review` `git-diff-review` `regression-testing` `test-strategy` `runtime-risk` `dependency-impact` `security-testing` `agentic-ai-risk` `rag-security` `llm-testing` `qa-automation`
+`ai-code-review` `quality-gate` `pr-quality-gate` `git-diff-review` `code-risk-review` `regression-testing` `test-strategy` `runtime-risk` `dependency-impact` `security-testing` `agentic-ai-risk` `rag-security` `llm-testing` `qa-automation`

@@ -12,7 +12,7 @@ If this helps your release review or QA workflow, please **star the repo** so mo
 
 | Skill | Use It When | Output You Get |
 | --- | --- | --- |
-| **RiskRadar AI** | You need an AI code review / quality gate before release. | Code risk report, exact risk locations, release-quality gate, regression-test strategy. |
+| **RiskRadar AI** | You need an AI code review quality gate for PRs and Git Diff. | Code risk report, exact risk locations, release-quality gate, regression-test strategy. |
 | **TraceMap AI** | You need coverage gap detection across PRDs, tests, and code. | Requirement-test-code traceability matrix, coverage gaps, acceptance evidence. |
 
 ```bash
@@ -29,7 +29,7 @@ ClawHub listings:
 
 Star this repo if you want reusable AI-assisted QA workflows that produce release evidence instead of generic advice:
 
-- **AI code review**: turn Git Diff into concrete release risks.
+- **AI code review quality gate**: turn PRs and Git Diff into concrete release risks.
 - **Quality gates**: decide whether a change is ready to ship.
 - **Requirements traceability**: connect PRD → test cases → code changes.
 - **Coverage gaps**: find missing validation before production.

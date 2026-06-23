@@ -1,12 +1,12 @@
 {
   "name": "tracemap-ai",
   "slug": "tracemap-ai",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "RiskRadar TraceMap Contributors",
   "description": "Coverage gap and test case validation for requirements traceability: PRD analysis, traceability matrix, acceptance testing, Agentic AI testing, RAG testing, and LLM testing.",
   "category": "testing",
   "created": "2026-06-17",
-  "updated": "2026-06-18",
+  "updated": "2026-06-23",
   "tags": [
     "coverage-gap",
     "test-case-validation",
